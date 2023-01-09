@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+
+.contaner {
+    border: 2px solid red;
+    min-height: 300px;
+    display: flex;
+    /* направление оси */
+    flex-direction: row;
+/* поведение по строкам*/
+flex-wrap: nowrap;
+flex-wrap: wrap;
+        /* flex-direction: row-reverse;
+        flex-direction: column;
+        flex-direction: column-reverse; */
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-items: flex-end;
+        align-items: center;
+        align-items: baseline;
+        align-items: stretch;
+/*строки внутри контенера*/
+align-content: stretch;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.item2 {
+    height: 200px;
+    width: 150px;
+    background-color: red;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.item3 {
+    height: 250px;
+    width: 150px;
+    background-color: red;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.test-item {
+    order: 2;
+    flex-grow: 2;
+}
+
+.test-item2 {
+    order: 1;
+    flex-grow: 2;
+}

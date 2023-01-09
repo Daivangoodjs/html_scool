@@ -1,0 +1,25 @@
+/* p {
+    font-size: 24px;   
+    font-family:   serif;  
+    font-style: italic;   
+    font-weight: 800; 
+    font-weight: 400;
+    color: brown;
+    background: rgb(91, 91, 95);
+} */
+
+.title {
+    color: rgb(50, 212, 212);
+    background: rgb(211, 211, 229);
+    min-width: 100px;
+    min-height: 50px;
+}
+
+.last_string {
+    color: red;
+    background: rgb(45, 45, 160);
+    width: 55%;
+    min-height: 50px;
+    padding: 20px;
+    margin: 50px;
+}

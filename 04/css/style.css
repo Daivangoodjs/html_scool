@@ -1,0 +1,26 @@
+* {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 95%;
+} 
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.bg-Gray {
+    color: gray;
+}
+
+.box-gray {
+    background-color: aqua;
+}
+
+

@@ -1,0 +1,64 @@
+#outline {
+    border: 2px;
+        border-width: 5px;
+        border-color: black;
+}
+
+#square_1 {
+        width: 100px;
+        height: 100px;
+        background: rgb(234, 109, 13);
+        
+        margin-bottom: 50px;
+        
+        
+    
+    }
+
+
+#square_2 {
+        width: 250px;
+        height: 100px;
+        background: red;
+        margin-bottom: 50px;
+    
+    }
+
+ #square_3 {
+        width: 100px;
+        height: 100px;
+        background: red;
+        margin-bottom: 50px;
+    }
+
+    
+#square_4 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-bottom: 50px;
+}
+
+
+#square_5 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-bottom: 50px;
+}
+
+
+#square_6 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-bottom: 50px;
+}
+
+
+
+.font_1 {
+    color: darkorange;
+    width: 20;
+    height: 20;
+}
